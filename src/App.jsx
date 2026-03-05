@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Hero from './Components/hero'
 import Tour from './Components/Tour'
-import Explore from './Components/explore'
+import Explore from './Components/Explore'
 import Destination from './Components/Destination/Destination'
 import Works from './Components/Works'
 import ExploreHero from './Components/Footer'
