@@ -39,11 +39,11 @@ export default function Hero() {
           <a onClick={() => scrollToSection("contact")} className="hover:text-gray-300 transition cursor-pointer">Contact</a>
         </div>
 
-        <a href="/register" className="bg-white text-black px-6 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-200 transition">
+        <Link to="/register" className="bg-white text-black px-6 py-2 rounded-full font-medium cursor-pointer hover:bg-gray-200 transition">
           
             Register Now
          
-        </a>
+        </Link>
       </div>
 
       {/* Hero Content */}
@@ -54,9 +54,9 @@ export default function Hero() {
           Solutions.
         </h2>
 
-        <a href='login' className="mt-10 bg-white text-black px-8 py-4 rounded-full w-fit font-medium cursor-pointer hover:bg-gray-200 transition">
+        <Link to='login' className="mt-10 bg-white text-black px-8 py-4 rounded-full w-fit font-medium cursor-pointer hover:bg-gray-200 transition">
           Get Started
-        </a>
+        </Link>
       </div>
 
 

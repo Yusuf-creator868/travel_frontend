@@ -18,6 +18,12 @@ const destinations = [
   },
 ];
 
+const data = [
+  {hero: "Name", text:"Bro", img: icland},
+  {hero: "Country", text:"Tashkent", img: thailand},
+  {hero: "USA", text:"America", img: indonesia},
+]
+
 export default function Tour() {
   return (
     <section id="tour" className="bg-gray-100 py-16 px-6 md:px-16">
